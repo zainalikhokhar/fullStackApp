@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*  npx tailwindcss -i ./src/tailwind.css -o ./resources/css/tailwind.css --watch*/
+/* we'll have to run thw above again and again after adding any classes of 
+tailwind to the file */
+/* another way is to create a script in package.json*/
+
+/*
+    "start": "npx tailwindcss -i ./src/tailwind.css -o ./resources/css/tailwind.css && node server.js",
+    "dev": "nodemon --e js,ejs,html --exec npm start"
+
+*/
